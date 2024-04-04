@@ -1,6 +1,6 @@
 import static org.junit.Assert.assertEquals;
-import org.junit.Test;
 
+import org.junit.Test;
 
 
 public class CalculatorJUnitTests {
@@ -8,7 +8,7 @@ public class CalculatorJUnitTests {
     @Test
     public void testSum() {
         Calculator calculator = new Calculator();
-        assertEquals("The sum result is wrong",7, calculator.add(3,4));
+        assertEquals("The sum result is wrong", 7, calculator.add(3, 4));
         System.out.println("JUnit: Testing sum method - Passed !");
     }
 
