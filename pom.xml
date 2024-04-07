@@ -5,6 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
+<<<<<<< HEAD
     <artifactId>UnitTestsDummy</artifactId>
     <version>1.0.0</version>
 
@@ -12,6 +13,18 @@
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
     </properties>
+=======
+    <artifactId>Alex_Bondarik_maven_at_project</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+>>>>>>> 69829fefaaf2371f72322a6ee3e4359f712da4c9
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -19,12 +32,22 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+<<<<<<< HEAD
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
+=======
+
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.2.3</version>
+        </dependency>
+
+>>>>>>> 69829fefaaf2371f72322a6ee3e4359f712da4c9
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
@@ -33,4 +56,16 @@
         </dependency>
     </dependencies>
 
+<<<<<<< HEAD
+=======
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.2</version>
+            </plugin>
+        </plugins>
+    </build>
+>>>>>>> 69829fefaaf2371f72322a6ee3e4359f712da4c9
 </project>
