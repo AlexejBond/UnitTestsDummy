@@ -1,3 +1,5 @@
+package testedClasses;
+
 public class Calculator {
 
     public int add(int x, int y) {

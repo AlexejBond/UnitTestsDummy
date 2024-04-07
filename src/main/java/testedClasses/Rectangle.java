@@ -1,3 +1,5 @@
+package testedClasses;
+
 public class Rectangle {
 
     double length, width;

@@ -1,3 +1,5 @@
+package testedClasses;
+
 public class EvenOddChecker {
 
     public static boolean check(int num) {

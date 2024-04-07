@@ -1,5 +1,9 @@
+package suiteTestNG;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import testedClasses.Calculator;
+
 
 
 public class CalculatorTestNGTests {
